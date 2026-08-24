@@ -35,7 +35,7 @@ Turn the catalog into the actual browsable site.
 
 - [x] Product detail pages: render real specs from the catalog data (SSG).
 - [x] Category listing pages with comparison-friendly layout (this is a spec-sheet site, not a store — emphasize comparability).
-- [ ] Home page and basic nav/footer.
+- [x] Home page and basic nav/footer.
 - [ ] Responsive pass and basic accessibility check.
 
 ## Phase 4 — Chatbot backend
