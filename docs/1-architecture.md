@@ -9,7 +9,7 @@ Builds on decisions and open questions from [`0-product-discovery.md`](./0-produ
 - **Framework:** Next.js (App Router, TypeScript) — single project for both the content site and the chatbot backend, so no separate server to deploy.
 - **Styling:** Tailwind CSS.
 - **Hosting:** Vercel — zero-config for Next.js, handles both static/SSG product pages and the serverless API route in one deploy.
-- **Chatbot model:** Google Gemini API (`gemini-3.6-flash` or `flash-lite`), called via the Vercel AI SDK (`ai` + `@ai-sdk/google`).
+- **Chatbot model:** Google Gemini API (`gemini-flash-lite-latest`), called via the Vercel AI SDK (`ai` + `@ai-sdk/google`). Chosen over the standard `flash` models specifically for its much higher free-tier daily quota (~1,000+/day vs. only 20/day for `gemini-3.6-flash` — discovered by exhausting it during manual testing).
 
 ### Why not X
 
@@ -33,13 +33,13 @@ Builds on decisions and open questions from [`0-product-discovery.md`](./0-produ
 ## Chatbot backend
 
 - Single Next.js API route (e.g. `POST /api/chat`).
-- Uses the Vercel AI SDK's `streamText({ model: google('gemini-3.6-flash'), system, messages })`, streaming the response back to `useChat()`.
+- Uses the Vercel AI SDK's `streamText({ model: google('gemini-flash-lite-latest'), system, messages })`, streaming the response back to `useChat()`.
 - **Context strategy:** the full structured catalog (18 SKUs — specs + copy) is serialized into the system prompt. No vector store, no retrieval step.
 - **Groundedness mechanism:**
   - System prompt instructs the model to answer only from the supplied catalog data, and to cite the product/spec ID backing each claim.
   - Refusal behavior: if the answer isn't in the catalog data (shipping policy, real-world availability, anything off-scope), the model says so and suggests contacting a human, rather than inventing an answer.
   - Citations returned by the model are validated server-side against the actual catalog records before being trusted/displayed — this is what makes the accuracy claim measurable rather than just asserted.
-- **Guardrails (public demo, free-tier model, still worth doing):** cap `max_tokens` per response; rate-limit per IP/session in the API route; keep the system prompt scoped strictly to product selection (no general-purpose assistant behavior), per the discovery doc's non-goals.
+- **Guardrails:** `maxOutputTokens: 1024` per response; a simple in-memory per-IP rate limiter (5 requests/minute) on the API route — note this protects against rapid abuse but doesn't raise Gemini's own daily quota; keep the system prompt scoped strictly to product selection (no general-purpose assistant behavior), per the discovery doc's non-goals.
 
 ## Evaluation (groundedness metric)
 
@@ -49,9 +49,7 @@ Builds on decisions and open questions from [`0-product-discovery.md`](./0-produ
 
 ## Open questions / not yet decided
 
-- Exact product data schema (fields per category — a laptop's specs differ from a desk's).
-- Eval set format/location (JSON fixture vs. a small script) and how results get rendered on the trust page.
-- Whether Gemini's free-tier rate limits are sufficient for demo/grading traffic, or whether a fallback model is needed.
+- How eval results get rendered on the trust page (eval set/script format is decided — see `eval/questions.ts` and `eval/run.ts`).
 - Visual identity (logo, color palette, typography) — brand name (Fractal Pattern) and tier naming (Essential/Pro/Elite) are finalized.
 - Image sourcing: Canva vs. Unsplash split (carried over from discovery doc, still open).
 

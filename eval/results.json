@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-08-24T18:35:12.416Z",
+  "totalQuestions": 15,
+  "citationAccuracy": 1,
+  "refusalCorrectness": 1,
+  "results": [
+    {
+      "id": "g1",
+      "type": "grounded",
+      "question": "What is the price of the Fractal Pattern Laptop Essential?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "The price of the Fractal Pattern Laptop Essential is €799."
+    },
+    {
+      "id": "g2",
+      "type": "grounded",
+      "question": "How much RAM does the Fractal Pattern Laptop Elite have?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "The Fractal Pattern Laptop Elite has 32GB of RAM."
+    },
+    {
+      "id": "g3",
+      "type": "grounded",
+      "question": "What is the refresh rate of the Fractal Pattern Monitor Elite?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "The refresh rate of the Fractal Pattern Monitor Elite is 165Hz."
+    },
+    {
+      "id": "g4",
+      "type": "grounded",
+      "question": "What is the price of the Fractal Pattern Desktop Pro?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "The price of the Fractal Pattern Desktop Pro is €1,499."
+    },
+    {
+      "id": "g5",
+      "type": "grounded",
+      "question": "Does the Fractal Pattern Chair Pro have lumbar support?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "Yes, the **Fractal Pattern Chair Pro** does include adjustable lumbar support."
+    },
+    {
+      "id": "g6",
+      "type": "grounded",
+      "question": "What is the maximum load capacity of the Fractal Pattern Desk Elite?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "The maximum load capacity of the **Fractal Pattern Desk Elite** is 100 kg. \n\nIf you are looking for a complete setup or have questions about other desks or products in our catalog, just let me know your use case, space constraints, and budget, and I'll be happy to help you build a matched bundle!"
+    },
+    {
+      "id": "g7",
+      "type": "grounded",
+      "question": "What connectivity does the Fractal Pattern Dock Elite offer?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "The Fractal Pattern Dock Elite offers USB4 (Thunderbolt 4) connectivity. \n\nIf you'd like help building a complete workspace setup or need to compare this with other accessories from our catalog, just let me know your use case, space constraints, and budget!"
+    },
+    {
+      "id": "g8",
+      "type": "grounded",
+      "question": "What is the price of the Fractal Pattern Hub Essential?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "The price of the Fractal Pattern Hub Essential is €39."
+    },
+    {
+      "id": "g9",
+      "type": "grounded",
+      "question": "How many hours per day is the Fractal Pattern Chair Elite recommended for?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "The Fractal Pattern Chair Elite is recommended for up to 12 hours of use per day. \n\nIs there a particular setup you are working on today? I'd be happy to help you find a matched bundle for your space and use case."
+    },
+    {
+      "id": "g10",
+      "type": "grounded",
+      "question": "What is the price of the Fractal Pattern Monitor Pro?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "The price of the Fractal Pattern Monitor Pro is €399."
+    },
+    {
+      "id": "r1",
+      "type": "refusal",
+      "question": "How long does shipping take to Canada?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "I don't have information on shipping times or international delivery policies. I recommend reaching out to our customer support team for details on shipping. \n\nIn the meantime, I'd be happy to help you build a workspace setup! Are you looking for a laptop or desktop setup, and what kind of work or use case are you shopping for?"
+    },
+    {
+      "id": "r2",
+      "type": "refusal",
+      "question": "What is your return policy?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "I don't have that information. Please contact customer support for details regarding our return policy. \n\nIn the meantime, I'm here to help you build out a workspace setup (laptops, desktops, monitors, desks, chairs, and accessories). Would you like to tell me a bit about your use case, space constraints, and budget so we can find the right bundle for you?"
+    },
+    {
+      "id": "r3",
+      "type": "refusal",
+      "question": "What is the capital of France?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "I am the Fractal Pattern setup assistant, so I can only help you choose workspaces, computers, monitors, desks, chairs, and accessories from our catalog. I cannot answer general knowledge questions like the capital of France. \n\nIf you'd like help putting together a workspace bundle for your home office or gaming setup, let me know your use case, space constraints, and budget, and I'll gladly build a matched recommendation for you!"
+    },
+    {
+      "id": "r4",
+      "type": "refusal",
+      "question": "Can you help me debug my Python code?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "I'm unable to help with coding or general knowledge questions, as my role is focused on helping you choose the right Fractal Pattern workspace setup. \n\nIf you'd like, I can help you build a complete workspace bundle—including a laptop or desktop, monitor, desk, chair, and accessories—tailored to your space and budget. Let me know what you'll be using your setup for!"
+    },
+    {
+      "id": "r5",
+      "type": "refusal",
+      "question": "Which is better, your laptop or a MacBook?",
+      "passed": true,
+      "hallucinations": [],
+      "response": "I can only help with Fractal Pattern products, so I cannot compare our laptops to MacBooks or other brands. \n\nIf you are looking for a reliable computer, we offer laptops and desktops across Essential, Pro, and Elite tiers depending on your needs. \n\nTo help me recommend the right setup for you, could you share a bit about your use case, space constraints, and budget?"
+    }
+  ]
+}

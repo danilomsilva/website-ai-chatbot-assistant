@@ -1,5 +1,5 @@
 const WINDOW_MS = 60_000;
-const MAX_REQUESTS_PER_WINDOW = 15;
+const MAX_REQUESTS_PER_WINDOW = 5;
 
 const requestLog = new Map<string, number[]>();
 
