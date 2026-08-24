@@ -46,12 +46,17 @@ export default async function CategoryPage({
 
       <div className="overflow-x-auto">
         <table className="w-full border-collapse text-sm">
+          <caption className="sr-only">
+            Spec comparison of {categoryLabels[category as Category]} across
+            Essential, Pro, and Elite tiers
+          </caption>
           <thead>
             <tr>
-              <th className="w-40 shrink-0" />
+              <th className="w-40 shrink-0" scope="col" />
               {products.map((product) => (
                 <th
                   key={product.id}
+                  scope="col"
                   className="w-48 p-3 text-left align-top"
                 >
                   <Link href={`/products/${product.slug}`} className="flex flex-col gap-2">
@@ -76,7 +81,10 @@ export default async function CategoryPage({
           <tbody>
             {specKeys.map((key) => (
               <tr key={key} className="border-t border-zinc-200 dark:border-zinc-800">
-                <th className="w-40 shrink-0 p-3 text-left font-normal text-zinc-500 dark:text-zinc-400">
+                <th
+                  scope="row"
+                  className="w-40 shrink-0 p-3 text-left font-normal text-zinc-500 dark:text-zinc-400"
+                >
                   {humanizeSpecKey(key)}
                 </th>
                 {products.map((product) => (
