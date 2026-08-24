@@ -69,6 +69,9 @@ export default async function CategoryPage({
                         className="object-cover"
                       />
                     </div>
+                    <span className="w-fit rounded-full bg-zinc-100 px-2 py-0.5 text-xs font-medium uppercase tracking-wide text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300">
+                      {product.tier}
+                    </span>
                     <span className="font-medium">{product.name}</span>
                     <span className="font-normal text-zinc-600 dark:text-zinc-400">
                       {formatPrice(product.price)}

@@ -13,7 +13,7 @@ const categoryLabels: Record<string, string> = {
 
 export default function ProductsPage() {
   return (
-    <main className="mx-auto flex max-w-4xl flex-col gap-8 px-6 py-16">
+    <main className="mx-auto flex max-w-5xl flex-col gap-8 px-6 py-16">
       <div>
         <h1 className="text-3xl font-semibold tracking-tight">
           Shop by category
