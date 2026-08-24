@@ -12,3 +12,16 @@ export function formatSpecValue(value: unknown): string {
 export function formatPrice(price: number): string {
   return `€${price.toLocaleString("en-US")}`;
 }
+
+export function tierBadgeClasses(tier: string): string {
+  switch (tier) {
+    case "essential":
+      return "border border-neon-cyan/60 text-neon-cyan bg-neon-cyan/10";
+    case "pro":
+      return "border border-neon-magenta/60 text-neon-magenta bg-neon-magenta/10";
+    case "elite":
+      return "border border-neon-purple/60 text-neon-purple bg-neon-purple/10";
+    default:
+      return "border border-muted/60 text-muted bg-muted/10";
+  }
+}

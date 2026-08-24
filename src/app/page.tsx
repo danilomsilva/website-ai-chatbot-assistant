@@ -15,31 +15,41 @@ export default function Home() {
   return (
     <main className="mx-auto flex max-w-5xl flex-col gap-16 px-6 py-16">
       <section className="flex flex-col items-start gap-4">
-        <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-          Engineered setups, not just specs.
+        <h1 className="font-display text-4xl font-bold tracking-tight text-transparent uppercase sm:text-5xl">
+          <span className="bg-gradient-to-r from-neon-cyan to-neon-magenta bg-clip-text">
+            Engineered setups,
+          </span>
+          <br />
+          <span className="bg-gradient-to-r from-neon-magenta to-neon-purple bg-clip-text">
+            not just specs.
+          </span>
         </h1>
-        <p className="max-w-xl text-lg text-zinc-600 dark:text-zinc-400">
+        <p className="max-w-xl text-lg text-muted">
           Fractal Pattern designs laptops, desktops, monitors, desks, chairs,
           and accessories built to work together — not just sold together.
         </p>
         <Link
           href="/products"
-          className="mt-2 rounded-full bg-zinc-950 px-5 py-3 text-sm font-medium text-white hover:bg-zinc-800 dark:bg-zinc-50 dark:text-zinc-950 dark:hover:bg-zinc-200"
+          className="neon-button mt-2 rounded-md px-5 py-3 text-sm font-semibold tracking-wide uppercase"
         >
           Browse products
         </Link>
       </section>
 
       <section>
-        <h2 className="mb-4 text-lg font-semibold">Shop by category</h2>
+        <h2 className="font-display mb-4 text-lg font-bold tracking-wide text-neon-cyan uppercase">
+          Shop by category
+        </h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
           {categories.map((category) => (
             <Link
               key={category}
               href={`/category/${category}`}
-              className="rounded-lg border border-zinc-200 p-6 transition-colors hover:border-zinc-400 dark:border-zinc-800 dark:hover:border-zinc-600"
+              className="neon-border rounded-lg bg-surface p-6 transition-all"
             >
-              <span className="font-medium">{categoryLabels[category]}</span>
+              <span className="font-medium text-foreground">
+                {categoryLabels[category]}
+              </span>
             </Link>
           ))}
         </div>

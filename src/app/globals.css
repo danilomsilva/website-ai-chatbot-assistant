@@ -1,26 +1,89 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #050608;
+  --surface: #0d0f16;
+  --foreground: #e8f4ff;
+  --muted: #7b8ba3;
+  --neon-cyan: #00f0ff;
+  --neon-magenta: #ff2bd6;
+  --neon-purple: #a855f7;
+  --neon-green: #39ff88;
+  --neon-red: #ff3860;
+  --border-neon: rgba(0, 240, 255, 0.35);
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-muted: var(--muted);
+  --color-neon-cyan: var(--neon-cyan);
+  --color-neon-magenta: var(--neon-magenta);
+  --color-neon-purple: var(--neon-purple);
+  --color-neon-green: var(--neon-green);
+  --color-neon-red: var(--neon-red);
+  --font-sans: var(--font-rajdhani);
+  --font-display: var(--font-orbitron);
 }
 
 body {
-  background: var(--background);
+  background:
+    linear-gradient(
+      rgba(5, 6, 8, 0.94),
+      rgba(5, 6, 8, 0.97)
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(0, 240, 255, 0.05) 0px,
+      rgba(0, 240, 255, 0.05) 1px,
+      transparent 1px,
+      transparent 40px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(0, 240, 255, 0.05) 0px,
+      rgba(0, 240, 255, 0.05) 1px,
+      transparent 1px,
+      transparent 40px
+    ),
+    var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-rajdhani), Arial, Helvetica, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-orbitron), var(--font-rajdhani), sans-serif;
+}
+
+.neon-text-cyan {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.6);
+}
+
+.neon-text-magenta {
+  color: var(--neon-magenta);
+  text-shadow: 0 0 8px rgba(255, 43, 214, 0.6);
+}
+
+.neon-border {
+  border: 1px solid var(--border-neon);
+  box-shadow: 0 0 12px rgba(0, 240, 255, 0.12);
+}
+
+.neon-border:hover {
+  border-color: rgba(0, 240, 255, 0.8);
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.35);
+}
+
+.neon-button {
+  border: 1px solid var(--neon-cyan);
+  color: var(--neon-cyan);
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.4);
+  transition: all 0.15s ease;
+}
+
+.neon-button:hover {
+  background: rgba(0, 240, 255, 0.1);
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.7);
 }
