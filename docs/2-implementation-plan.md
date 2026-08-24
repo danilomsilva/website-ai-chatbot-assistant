@@ -56,7 +56,7 @@ Prove the anti-hallucination claim rather than just asserting it — this is the
 
 - [x] Hand-author an eval set: known-answerable questions (with the correct grounded answer) + intentionally out-of-scope questions (should trigger refusal). See `eval/questions.ts` (10 grounded + 5 refusal).
 - [x] Eval script that runs the set against the deployed chat route and checks citation accuracy + refusal correctness. See `eval/run.ts` (`npm run eval`). Confirmed 100% citation accuracy, 100% refusal correctness.
-- [ ] "Trust" / "how this works" page on the site surfacing the eval results.
+- [x] "Trust" / "how this works" page on the site surfacing the eval results. See `/trust`.
 
 ## Phase 6 — Polish & hardening
 
