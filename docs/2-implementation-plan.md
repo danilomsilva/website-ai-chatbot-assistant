@@ -54,8 +54,8 @@ The core differentiator — build this once there's real catalog data to ground 
 
 Prove the anti-hallucination claim rather than just asserting it — this is the standout feature, so budget real time here.
 
-- [ ] Hand-author an eval set: known-answerable questions (with the correct grounded answer) + intentionally out-of-scope questions (should trigger refusal).
-- [ ] Eval script that runs the set against the deployed chat route and checks citation accuracy + refusal correctness.
+- [x] Hand-author an eval set: known-answerable questions (with the correct grounded answer) + intentionally out-of-scope questions (should trigger refusal). See `eval/questions.ts` (10 grounded + 5 refusal).
+- [x] Eval script that runs the set against the deployed chat route and checks citation accuracy + refusal correctness. See `eval/run.ts` (`npm run eval`). Confirmed 100% citation accuracy, 100% refusal correctness.
 - [ ] "Trust" / "how this works" page on the site surfacing the eval results.
 
 ## Phase 6 — Polish & hardening
