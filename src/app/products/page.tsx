@@ -1,12 +1,12 @@
-export default function Home() {
+export default function ProductsPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center gap-4 px-8 text-center">
       <h1 className="text-3xl font-semibold tracking-tight">
-        Home — placeholder
+        Products — placeholder
       </h1>
       <p className="max-w-md text-zinc-600 dark:text-zinc-400">
-        Landing page content comes in Phase 3, once the brand and catalog
-        data exist.
+        Category/product listing comes in Phase 3, once the catalog data
+        exists.
       </p>
     </main>
   );
