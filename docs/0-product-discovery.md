@@ -23,6 +23,7 @@ A senior/capstone project combining:
 - Tiers per category: 3 tiers spanning budget → work → gaming/performance use cases, named **Essential / Pro / Elite** (finalized) rather than literally "Budget/Work/Gaming" repeated per category, so it reads as a product line rather than a filter.
 - Target catalog size: roughly 30–40 SKUs total. Small enough to hand-author convincing detail pages; large enough to be a real dataset for the chatbot to reason over.
 - Each product needs a detail page with real structured specs (not just marketing copy) so the chatbot has concrete facts to cite.
+- Product photography: Unsplash stock photography (generic, realistic, no design work needed for ~30–40 SKUs). Canva is reserved for brand-level assets (logo, hero banners, trust-page graphics), not per-product images.
 
 ## Target audience (site visitor persona)
 
@@ -51,13 +52,10 @@ A senior/capstone project combining:
 ## Open questions / not yet decided
 
 - Visual identity (logo, color palette, typography) for the Fractal Pattern brand.
-- Whether images come from Canva (generated/branded assets) vs Unsplash (stock lifestyle/office photography), and the split between the two.
-- Chatbot delivery mechanism: custom chat widget calling a backend API (which calls the Claude API) — confirmed direction, but exact backend/framework choice not yet made.
-- Whether retrieval is full RAG (vector store) or context-stuffing, pending catalog size/complexity.
-- Hosting/deployment target.
+- Per-category product data schema (see `1-architecture.md`).
+
+Technical decisions (stack, chatbot delivery, retrieval strategy, hosting) are resolved in [`1-architecture.md`](./1-architecture.md).
 
 ## Next steps
 
-- Flesh out the product catalog: category list, tier definitions, and a first pass at real SKUs with specs.
-- Decide brand name and naming conventions.
-- Define site architecture and chatbot architecture in a follow-up doc (`1-architecture.md` or similar).
+- Define the per-category product data schema, then author a first pass at real SKUs with specs (see `2-implementation-plan.md` Phase 1–2).
