@@ -42,7 +42,7 @@ Turn the catalog into the actual browsable site.
 
 The core differentiator — build this once there's real catalog data to ground it in.
 
-- [ ] Get a free Gemini API key, store it as a Vercel env var (never committed).
+- [x] Get a free Gemini API key, store it as a Vercel env var (never committed).
 - [ ] `/api/chat` route wired to Gemini via the Vercel AI SDK.
 - [ ] System prompt: inject the full catalog, instruct answer-only-from-data + cite product/spec IDs.
 - [ ] Refusal behavior: explicit instruction + test that out-of-scope questions (shipping, availability, etc.) get declined with a "talk to a human" suggestion instead of an invented answer.

@@ -9,7 +9,7 @@ Builds on decisions and open questions from [`0-product-discovery.md`](./0-produ
 - **Framework:** Next.js (App Router, TypeScript) — single project for both the content site and the chatbot backend, so no separate server to deploy.
 - **Styling:** Tailwind CSS.
 - **Hosting:** Vercel — zero-config for Next.js, handles both static/SSG product pages and the serverless API route in one deploy.
-- **Chatbot model:** Google Gemini API (`gemini-2.5-flash` or `flash-lite`), called via the Vercel AI SDK (`ai` + `@ai-sdk/google`).
+- **Chatbot model:** Google Gemini API (`gemini-3.6-flash` or `flash-lite`), called via the Vercel AI SDK (`ai` + `@ai-sdk/google`).
 
 ### Why not X
 
@@ -33,7 +33,7 @@ Builds on decisions and open questions from [`0-product-discovery.md`](./0-produ
 ## Chatbot backend
 
 - Single Next.js API route (e.g. `POST /api/chat`).
-- Uses the Vercel AI SDK's `streamText({ model: google('gemini-2.5-flash'), system, messages })`, streaming the response back to `useChat()`.
+- Uses the Vercel AI SDK's `streamText({ model: google('gemini-3.6-flash'), system, messages })`, streaming the response back to `useChat()`.
 - **Context strategy:** the full structured catalog (18 SKUs — specs + copy) is serialized into the system prompt. No vector store, no retrieval step.
 - **Groundedness mechanism:**
   - System prompt instructs the model to answer only from the supplied catalog data, and to cite the product/spec ID backing each claim.
