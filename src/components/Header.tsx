@@ -7,12 +7,18 @@ export function Header() {
         <Link href="/" className="text-lg font-semibold tracking-tight">
           Fractal Pattern
         </Link>
-        <nav>
+        <nav className="flex gap-6">
           <Link
             href="/products"
             className="text-sm text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-zinc-50"
           >
             Products
+          </Link>
+          <Link
+            href="/trust"
+            className="text-sm text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-zinc-50"
+          >
+            How this works
           </Link>
         </nav>
       </div>
