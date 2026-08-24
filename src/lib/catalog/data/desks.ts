@@ -34,7 +34,7 @@ export const desks: Product[] = [
     description:
       "A larger desk with a manual crank height adjustment and built-in cable management — enough surface for a full multi-monitor setup, and enough flexibility to switch between sitting and standing through the day.",
     images: [
-      "https://images.unsplash.com/photo-1746021535489-00edc5efb203?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1747006384626-9a14687639e2?q=80&w=1200&auto=format&fit=crop",
     ],
     specs: {
       widthCm: 140,
@@ -56,7 +56,7 @@ export const desks: Product[] = [
     description:
       "A dual-motor electric standing desk with a full-width cable channel, built to carry a heavy multi-monitor and dual-PC setup and move it smoothly between sitting and standing at the press of a button.",
     images: [
-      "https://images.unsplash.com/photo-1746021535489-00edc5efb203?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1677272272512-d7e7946aafeb?q=80&w=1200&auto=format&fit=crop",
     ],
     specs: {
       widthCm: 160,

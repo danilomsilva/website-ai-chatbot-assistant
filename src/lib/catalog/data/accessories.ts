@@ -30,7 +30,7 @@ export const accessories: Product[] = [
     description:
       "A Thunderbolt 3 docking station that connects a laptop to a monitor, keyboard, mouse, and ethernet with a single cable — built for a hybrid setup you sit down at every day.",
     images: [
-      "https://images.unsplash.com/photo-1616578273518-450dd375759b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1580368393720-393aeacbc2a4?q=80&w=1200&auto=format&fit=crop",
     ],
     specs: {
       subtype: "Docking Station",
@@ -49,7 +49,7 @@ export const accessories: Product[] = [
     description:
       "A USB4/Thunderbolt 4 dock built for multi-monitor, high-refresh setups — enough bandwidth and power delivery to drive an Elite-tier monitor and charge an Elite-tier laptop from the same cable.",
     images: [
-      "https://images.unsplash.com/photo-1616578273518-450dd375759b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1589901264504-e25620423d7c?q=80&w=1200&auto=format&fit=crop",
     ],
     specs: {
       subtype: "Docking Station",

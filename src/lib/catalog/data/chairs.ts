@@ -33,7 +33,7 @@ export const chairs: Product[] = [
     description:
       "Molded foam, breathable mesh, and adjustable lumbar support — designed to stay comfortable through a full 8-hour workday, not just the first hour of it.",
     images: [
-      "https://images.unsplash.com/photo-1723810388971-f8cd6474597f?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1536851784907-ca92b8a12f69?q=80&w=1200&auto=format&fit=crop",
     ],
     specs: {
       material: "Breathable mesh, molded foam",
@@ -54,7 +54,7 @@ export const chairs: Product[] = [
     description:
       "Premium mesh with adaptive lumbar support, built for extended competitive gaming or work sessions that run well past a normal workday without leaving you sore.",
     images: [
-      "https://images.unsplash.com/photo-1723810388971-f8cd6474597f?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1636487658609-28282bb5a3a0?q=80&w=1200&auto=format&fit=crop",
     ],
     specs: {
       material: "Premium mesh with adaptive lumbar",

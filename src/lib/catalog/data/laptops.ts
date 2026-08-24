@@ -37,7 +37,7 @@ export const laptops: Product[] = [
     description:
       "More cores, more memory, and a sharper 15.6-inch display for the work that piles up — spreadsheets, multi-tab research, video calls, and light creative work, all without the laptop becoming the bottleneck.",
     images: [
-      "https://images.unsplash.com/photo-1540397106260-e24a507a08ea?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1758640920659-0bb864175983?q=80&w=1200&auto=format&fit=crop",
     ],
     specs: {
       cpu: "8-core 3.2GHz",
@@ -62,7 +62,7 @@ export const laptops: Product[] = [
     description:
       "The top of the line for competitive gaming and demanding creative workloads: a 12-core processor, dedicated graphics with 12GB of memory, and a 16-inch 4K display, in a chassis built to keep it all cool under sustained load.",
     images: [
-      "https://images.unsplash.com/photo-1540397106260-e24a507a08ea?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1701576766277-c6160505581d?q=80&w=1200&auto=format&fit=crop",
     ],
     specs: {
       cpu: "12-core 3.8GHz",

@@ -34,7 +34,7 @@ export const desktops: Product[] = [
     description:
       "Dedicated graphics and a mid-tower chassis with real airflow, for hybrid work that spills into creative projects — video calls, spreadsheets, and photo or video editing without the fan spinning up in protest.",
     images: [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587302912306-cf1ed9c33146?q=80&w=1200&auto=format&fit=crop",
     ],
     specs: {
       cpu: "8-core 3.4GHz",
@@ -56,7 +56,7 @@ export const desktops: Product[] = [
     description:
       "A full tower with liquid cooling and high-end components for competitive gaming and heavy creative workloads that run for hours, not minutes — built to sustain peak performance rather than just hit it briefly.",
     images: [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1761131745229-763bffe31248?q=80&w=1200&auto=format&fit=crop",
     ],
     specs: {
       cpu: "16-core 4.0GHz",

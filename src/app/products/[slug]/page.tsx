@@ -23,7 +23,7 @@ export default async function ProductDetailPage({
   return (
     <main className="mx-auto flex max-w-4xl flex-col gap-8 px-6 py-16">
       <div className="flex flex-col gap-6 sm:flex-row">
-        <div className="relative aspect-video w-full overflow-hidden rounded-lg sm:aspect-square sm:w-64 sm:shrink-0">
+        <div className="relative aspect-square w-full overflow-hidden rounded-lg sm:w-64 sm:shrink-0">
           <Image
             src={product.images[0]}
             alt={product.name}
