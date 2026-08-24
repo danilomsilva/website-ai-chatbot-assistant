@@ -48,7 +48,7 @@ The core differentiator — build this once there's real catalog data to ground 
 - [x] Refusal behavior: explicit instruction + test that out-of-scope questions (shipping, availability, etc.) get declined with a "talk to a human" suggestion instead of an invented answer. Verified live.
 - [x] Setup builder behavior: ask about use case/space/budget, recommend a matched bundle across categories with a stated reason per item (per the discovery doc's chatbot job description). Verified live with correct bundle math.
 - [x] Chat widget UI using `useChat()`, embedded on the site.
-- [ ] Guardrails: `max_tokens` cap, per-IP/session rate limiting.
+- [x] Guardrails: `max_tokens` cap, per-IP/session rate limiting. Verified live.
 
 ## Phase 5 — Groundedness evaluation
 
