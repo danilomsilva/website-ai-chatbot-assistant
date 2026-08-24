@@ -17,7 +17,7 @@ export function ChatWidget() {
 
   const isBusy = status === "submitted" || status === "streaming";
 
-  function handleSubmit(event: React.FormEvent) {
+  function handleSubmit(event: React.SubmitEvent) {
     event.preventDefault();
     const text = input.trim();
     if (!text || isBusy) return;

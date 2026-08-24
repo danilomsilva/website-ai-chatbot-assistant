@@ -10,5 +10,5 @@ export function formatSpecValue(value: unknown): string {
 }
 
 export function formatPrice(price: number): string {
-  return `$${price.toLocaleString("en-US")}`;
+  return `€${price.toLocaleString("en-US")}`;
 }
