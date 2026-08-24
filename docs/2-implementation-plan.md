@@ -43,11 +43,11 @@ Turn the catalog into the actual browsable site.
 The core differentiator — build this once there's real catalog data to ground it in.
 
 - [x] Get a free Gemini API key, store it as a Vercel env var (never committed).
-- [ ] `/api/chat` route wired to Gemini via the Vercel AI SDK.
-- [ ] System prompt: inject the full catalog, instruct answer-only-from-data + cite product/spec IDs.
-- [ ] Refusal behavior: explicit instruction + test that out-of-scope questions (shipping, availability, etc.) get declined with a "talk to a human" suggestion instead of an invented answer.
-- [ ] Setup builder behavior: ask about use case/space/budget, recommend a matched bundle across categories with a stated reason per item (per the discovery doc's chatbot job description).
-- [ ] Chat widget UI using `useChat()`, embedded on the site.
+- [x] `/api/chat` route wired to Gemini via the Vercel AI SDK.
+- [x] System prompt: inject the full catalog, instruct answer-only-from-data + cite product/spec IDs.
+- [x] Refusal behavior: explicit instruction + test that out-of-scope questions (shipping, availability, etc.) get declined with a "talk to a human" suggestion instead of an invented answer. Verified live.
+- [x] Setup builder behavior: ask about use case/space/budget, recommend a matched bundle across categories with a stated reason per item (per the discovery doc's chatbot job description). Verified live with correct bundle math.
+- [x] Chat widget UI using `useChat()`, embedded on the site.
 - [ ] Guardrails: `max_tokens` cap, per-IP/session rate limiting.
 
 ## Phase 5 — Groundedness evaluation
