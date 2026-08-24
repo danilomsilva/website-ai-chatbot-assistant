@@ -8,10 +8,9 @@ Builds on [`0-product-discovery.md`](./0-product-discovery.md) and [`1-architect
 
 Get something running and deployed before building anything real on top of it.
 
-- [ ] `create-next-app` with TypeScript, Tailwind, App Router.
-- [ ] Bare route structure: home, category listing, `[slug]` product detail — placeholder content only.
-- [ ] Push to GitHub, connect to Vercel, confirm a live deploy works end to end.
-- [ ] Get a free Gemini API key, store it as a Vercel env var (never committed).
+- [x] `create-next-app` with TypeScript, Tailwind, App Router.
+- [x] Bare route structure: home, category listing, `[slug]` product detail — placeholder content only.
+- [x] Push to GitHub, connect to Vercel, confirm a live deploy works end to end.
 
 ## Phase 1 — Brand & content foundations
 
@@ -43,6 +42,7 @@ Turn the catalog into the actual browsable site.
 
 The core differentiator — build this once there's real catalog data to ground it in.
 
+- [ ] Get a free Gemini API key, store it as a Vercel env var (never committed).
 - [ ] `/api/chat` route wired to Gemini via the Vercel AI SDK.
 - [ ] System prompt: inject the full catalog, instruct answer-only-from-data + cite product/spec IDs.
 - [ ] Refusal behavior: explicit instruction + test that out-of-scope questions (shipping, availability, etc.) get declined with a "talk to a human" suggestion instead of an invented answer.
