@@ -21,7 +21,7 @@ A senior/capstone project combining:
 
 - Categories: laptops, desktops, monitors, desks, chairs, accessories (6 categories).
 - Tiers per category: 3 tiers spanning budget → work → gaming/performance use cases, named **Essential / Pro / Elite** (finalized) rather than literally "Budget/Work/Gaming" repeated per category, so it reads as a product line rather than a filter.
-- Target catalog size: roughly 30–40 SKUs total. Small enough to hand-author convincing detail pages; large enough to be a real dataset for the chatbot to reason over.
+- Target catalog size: **18 SKUs total** — 1 product per tier per category (6 categories × 3 tiers). Simpler than the originally floated 30–40, still enough for the chatbot to reason over real trade-offs, and every SKU stays hand-authored with genuine detail.
 - Each product needs a detail page with real structured specs (not just marketing copy) so the chatbot has concrete facts to cite.
 - Product photography: Unsplash stock photography (generic, realistic, no design work needed for ~30–40 SKUs). Canva is reserved for brand-level assets (logo, hero banners, trust-page graphics), not per-product images.
 

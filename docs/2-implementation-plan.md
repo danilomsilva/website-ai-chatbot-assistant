@@ -24,9 +24,9 @@ Decisions that everything else (copy, imagery, data schema) depends on — do th
 
 The dataset the whole site and chatbot are built around.
 
-- [ ] Author the category/tier structure (6 categories × 3 tiers).
-- [ ] Write real structured specs + editorial copy for a first small batch (e.g. one full category) to validate the schema before scaling up.
-- [ ] Once the schema holds up, author the remaining SKUs to reach the ~30–40 target.
+- [x] Author the category/tier structure (6 categories × 3 tiers).
+- [x] Write real structured specs + editorial copy for a first small batch (laptops) to validate the schema before scaling up.
+- [ ] Author the remaining 5 categories (desktops, monitors, desks, chairs, accessories) — 1 SKU per tier each, **18 SKUs total**.
 - [ ] Source/assign images per product per the Phase 1 decision.
 
 ## Phase 3 — Site build

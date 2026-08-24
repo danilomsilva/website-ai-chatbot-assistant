@@ -16,7 +16,7 @@ Builds on decisions and open questions from [`0-product-discovery.md`](./0-produ
 - **Next.js pure React (Vite) split:** considered, but a client-only SPA has no server-side code to hold the model API key, requiring a separate backend deploy (Express on Render/Railway/Fly.io) plus CORS. Next.js gives the same result in one project.
 - **GitHub Pages:** static-only hosting, can't run the API route that keeps the key server-side. Would require splitting the chatbot endpoint onto a separate serverless host (Cloudflare Workers, Netlify Functions) for no real benefit over just using Vercel.
 - **Claude API:** was the original "confirmed direction" in the discovery doc, but it's paid/usage-billed. Not a security risk if kept server-side, but a public capstone demo has no natural spend ceiling without active guardrails. Swapped for Gemini's free tier to remove that risk entirely; Claude remains a drop-in swap later if quality demands it (same architecture, different SDK call).
-- **Full RAG (vector DB):** unnecessary at the target catalog size (~30–40 SKUs). Context-stuffing the whole catalog into the system prompt is simpler and easier to defend as "nothing dropped by retrieval" — revisit only if the catalog grows well past this size.
+- **Full RAG (vector DB):** unnecessary at the target catalog size (18 SKUs). Context-stuffing the whole catalog into the system prompt is simpler and easier to defend as "nothing dropped by retrieval" — revisit only if the catalog grows well past this size.
 
 ## Frontend
 
@@ -34,7 +34,7 @@ Builds on decisions and open questions from [`0-product-discovery.md`](./0-produ
 
 - Single Next.js API route (e.g. `POST /api/chat`).
 - Uses the Vercel AI SDK's `streamText({ model: google('gemini-2.5-flash'), system, messages })`, streaming the response back to `useChat()`.
-- **Context strategy:** the full structured catalog (specs + copy) is serialized into the system prompt. No vector store, no retrieval step.
+- **Context strategy:** the full structured catalog (18 SKUs — specs + copy) is serialized into the system prompt. No vector store, no retrieval step.
 - **Groundedness mechanism:**
   - System prompt instructs the model to answer only from the supplied catalog data, and to cite the product/spec ID backing each claim.
   - Refusal behavior: if the answer isn't in the catalog data (shipping policy, real-world availability, anything off-scope), the model says so and suggests contacting a human, rather than inventing an answer.
