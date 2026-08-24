@@ -18,7 +18,7 @@ Decisions that everything else (copy, imagery, data schema) depends on — do th
 
 - [x] Finalize brand name and tier naming convention — **Fractal Pattern**, tiers **Essential / Pro / Elite**.
 - [x] Decide the Canva vs. Unsplash image split — **Unsplash for product photos, Canva for brand assets only**.
-- [ ] Define the per-category product data schema (a laptop's spec fields differ from a desk's) — this is the `1-architecture.md` "not yet decided" item that blocks catalog authoring.
+- [x] Define the per-category product data schema (a laptop's spec fields differ from a desk's) — see `src/lib/catalog/types.ts`.
 
 ## Phase 2 — Product catalog
 
