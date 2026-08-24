@@ -15,12 +15,12 @@ A senior/capstone project combining:
 - A fictional premium brand that designs a full coherent workspace ecosystem, not a single product line.
 - Positioning idea: "engineered setups, not just specs" — sells the idea that its products are designed to work together as a setup, not just as individual SKUs.
 - No real brand names, logos, or trademarks are used anywhere in content or code.
-- Brand name: not yet decided (placeholder candidates to explore later, e.g. "Ridgeline", "Fjord" — not finalized).
+- Brand name: **Fractal Pattern** (finalized).
 
 ## Product catalog (concept)
 
 - Categories: laptops, desktops, monitors, desks, chairs, accessories (6 categories).
-- Tiers per category: 3 tiers spanning budget → work → gaming/performance use cases (exact tier naming TBD — leaning toward something like Essential / Pro / Elite rather than literally "Budget/Work/Gaming" repeated per category, so it reads as a product line rather than a filter).
+- Tiers per category: 3 tiers spanning budget → work → gaming/performance use cases, named **Essential / Pro / Elite** (finalized) rather than literally "Budget/Work/Gaming" repeated per category, so it reads as a product line rather than a filter.
 - Target catalog size: roughly 30–40 SKUs total. Small enough to hand-author convincing detail pages; large enough to be a real dataset for the chatbot to reason over.
 - Each product needs a detail page with real structured specs (not just marketing copy) so the chatbot has concrete facts to cite.
 
@@ -50,8 +50,7 @@ A senior/capstone project combining:
 
 ## Open questions / not yet decided
 
-- Final brand name and visual identity.
-- Final product tier naming convention.
+- Visual identity (logo, color palette, typography) for the Fractal Pattern brand.
 - Whether images come from Canva (generated/branded assets) vs Unsplash (stock lifestyle/office photography), and the split between the two.
 - Chatbot delivery mechanism: custom chat widget calling a backend API (which calls the Claude API) — confirmed direction, but exact backend/framework choice not yet made.
 - Whether retrieval is full RAG (vector store) or context-stuffing, pending catalog size/complexity.

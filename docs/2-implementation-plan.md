@@ -16,7 +16,7 @@ Get something running and deployed before building anything real on top of it.
 
 Decisions that everything else (copy, imagery, data schema) depends on — do these before authoring real content.
 
-- [ ] Finalize brand name and tier naming convention (currently open in the discovery doc).
+- [x] Finalize brand name and tier naming convention — **Fractal Pattern**, tiers **Essential / Pro / Elite**.
 - [ ] Decide the Canva vs. Unsplash image split.
 - [ ] Define the per-category product data schema (a laptop's spec fields differ from a desk's) — this is the `1-architecture.md` "not yet decided" item that blocks catalog authoring.
 

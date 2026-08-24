@@ -52,7 +52,7 @@ Builds on decisions and open questions from [`0-product-discovery.md`](./0-produ
 - Exact product data schema (fields per category — a laptop's specs differ from a desk's).
 - Eval set format/location (JSON fixture vs. a small script) and how results get rendered on the trust page.
 - Whether Gemini's free-tier rate limits are sufficient for demo/grading traffic, or whether a fallback model is needed.
-- Final brand name, visual identity, product tier naming (carried over from discovery doc, still open).
+- Visual identity (logo, color palette, typography) — brand name (Fractal Pattern) and tier naming (Essential/Pro/Elite) are finalized.
 - Image sourcing: Canva vs. Unsplash split (carried over from discovery doc, still open).
 
 ## Next steps
