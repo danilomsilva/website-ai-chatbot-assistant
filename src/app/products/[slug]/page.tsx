@@ -11,8 +11,8 @@ export default async function ProductDetailPage({
         Product: {slug} — placeholder
       </h1>
       <p className="max-w-md text-zinc-600 dark:text-zinc-400">
-        Real specs render here once the catalog data and schema exist
-        (Phase 2/3).
+        Real specs render here once the catalog data and schema exist (Phase
+        2/3).
       </p>
     </main>
   );
