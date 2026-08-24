@@ -33,8 +33,8 @@ The dataset the whole site and chatbot are built around.
 
 Turn the catalog into the actual browsable site.
 
-- [ ] Product detail pages: render real specs from the catalog data (SSG).
-- [ ] Category listing pages with comparison-friendly layout (this is a spec-sheet site, not a store — emphasize comparability).
+- [x] Product detail pages: render real specs from the catalog data (SSG).
+- [x] Category listing pages with comparison-friendly layout (this is a spec-sheet site, not a store — emphasize comparability).
 - [ ] Home page and basic nav/footer.
 - [ ] Responsive pass and basic accessibility check.
 
