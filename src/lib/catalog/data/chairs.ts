@@ -11,7 +11,9 @@ export const chairs: Product[] = [
     tagline: "Comfortable enough for a few hours at a time.",
     description:
       "A breathable mesh-back chair with basic height adjustment — a solid upgrade over a kitchen chair for shorter work sessions.",
-    images: ["/images/chairs/fractal-pattern-chair-essential-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1723810388971-f8cd6474597f?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       material: "Mesh back, foam seat",
       adjustableHeight: true,
@@ -30,7 +32,9 @@ export const chairs: Product[] = [
     tagline: "Built for a full workday.",
     description:
       "Molded foam, breathable mesh, and adjustable lumbar support — designed to stay comfortable through a full 8-hour workday, not just the first hour of it.",
-    images: ["/images/chairs/fractal-pattern-chair-pro-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1723810388971-f8cd6474597f?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       material: "Breathable mesh, molded foam",
       adjustableHeight: true,
@@ -49,7 +53,9 @@ export const chairs: Product[] = [
     tagline: "For the long sessions that actually matter.",
     description:
       "Premium mesh with adaptive lumbar support, built for extended competitive gaming or work sessions that run well past a normal workday without leaving you sore.",
-    images: ["/images/chairs/fractal-pattern-chair-elite-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1723810388971-f8cd6474597f?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       material: "Premium mesh with adaptive lumbar",
       adjustableHeight: true,

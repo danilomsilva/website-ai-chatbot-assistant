@@ -11,7 +11,9 @@ export const accessories: Product[] = [
     tagline: "One cable, a few more ports.",
     description:
       "A simple USB-C hub that adds the ports most laptops leave out — useful the moment you plug in a second monitor or a wired mouse.",
-    images: ["/images/accessories/fractal-pattern-hub-essential-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1616578273518-450dd375759b?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       subtype: "USB-C Hub",
       connectivity: "USB-C (single cable)",
@@ -27,7 +29,9 @@ export const accessories: Product[] = [
     tagline: "Turn any laptop into a full workstation.",
     description:
       "A Thunderbolt 3 docking station that connects a laptop to a monitor, keyboard, mouse, and ethernet with a single cable — built for a hybrid setup you sit down at every day.",
-    images: ["/images/accessories/fractal-pattern-dock-pro-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1616578273518-450dd375759b?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       subtype: "Docking Station",
       connectivity: "USB-C (Thunderbolt 3)",
@@ -44,7 +48,9 @@ export const accessories: Product[] = [
     tagline: "The single connection point for a serious setup.",
     description:
       "A USB4/Thunderbolt 4 dock built for multi-monitor, high-refresh setups — enough bandwidth and power delivery to drive an Elite-tier monitor and charge an Elite-tier laptop from the same cable.",
-    images: ["/images/accessories/fractal-pattern-dock-elite-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1616578273518-450dd375759b?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       subtype: "Docking Station",
       connectivity: "USB4 (Thunderbolt 4)",

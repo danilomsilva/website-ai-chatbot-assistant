@@ -11,7 +11,9 @@ export const desks: Product[] = [
     tagline: "A solid surface, sized to fit anywhere.",
     description:
       "A fixed-height desk with a durable laminate surface — straightforward, sturdy, and sized to fit in a home office or bedroom corner without dominating the room.",
-    images: ["/images/desks/fractal-pattern-desk-essential-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1746021535489-00edc5efb203?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       widthCm: 120,
       depthCm: 60,
@@ -31,7 +33,9 @@ export const desks: Product[] = [
     tagline: "Room to work, and room to move.",
     description:
       "A larger desk with a manual crank height adjustment and built-in cable management — enough surface for a full multi-monitor setup, and enough flexibility to switch between sitting and standing through the day.",
-    images: ["/images/desks/fractal-pattern-desk-pro-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1746021535489-00edc5efb203?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       widthCm: 140,
       depthCm: 70,
@@ -51,7 +55,9 @@ export const desks: Product[] = [
     tagline: "The anchor of a serious setup.",
     description:
       "A dual-motor electric standing desk with a full-width cable channel, built to carry a heavy multi-monitor and dual-PC setup and move it smoothly between sitting and standing at the press of a button.",
-    images: ["/images/desks/fractal-pattern-desk-elite-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1746021535489-00edc5efb203?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       widthCm: 160,
       depthCm: 80,

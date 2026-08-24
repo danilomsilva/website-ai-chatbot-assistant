@@ -11,7 +11,9 @@ export const desktops: Product[] = [
     tagline: "A quiet, capable machine for everyday work.",
     description:
       "Compact enough for a small desk, capable enough for browsing, office work, and streaming without fuss. No unnecessary bulk, no unnecessary noise.",
-    images: ["/images/desktops/fractal-pattern-desktop-essential-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       cpu: "Quad-core 2.4GHz",
       ramGb: 8,
@@ -31,7 +33,9 @@ export const desktops: Product[] = [
     tagline: "Built to keep up with real multitasking.",
     description:
       "Dedicated graphics and a mid-tower chassis with real airflow, for hybrid work that spills into creative projects — video calls, spreadsheets, and photo or video editing without the fan spinning up in protest.",
-    images: ["/images/desktops/fractal-pattern-desktop-pro-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       cpu: "8-core 3.4GHz",
       ramGb: 16,
@@ -51,7 +55,9 @@ export const desktops: Product[] = [
     tagline: "No compromises, built for sustained load.",
     description:
       "A full tower with liquid cooling and high-end components for competitive gaming and heavy creative workloads that run for hours, not minutes — built to sustain peak performance rather than just hit it briefly.",
-    images: ["/images/desktops/fractal-pattern-desktop-elite-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       cpu: "16-core 4.0GHz",
       ramGb: 64,

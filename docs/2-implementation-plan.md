@@ -26,8 +26,8 @@ The dataset the whole site and chatbot are built around.
 
 - [x] Author the category/tier structure (6 categories × 3 tiers).
 - [x] Write real structured specs + editorial copy for a first small batch (laptops) to validate the schema before scaling up.
-- [ ] Author the remaining 5 categories (desktops, monitors, desks, chairs, accessories) — 1 SKU per tier each, **18 SKUs total**.
-- [ ] Source/assign images per product per the Phase 1 decision.
+- [x] Author the remaining 5 categories (desktops, monitors, desks, chairs, accessories) — 1 SKU per tier each, **18 SKUs total**.
+- [x] Source/assign images per product per the Phase 1 decision — one real Unsplash photo per category, reused across its 3 tiers.
 
 ## Phase 3 — Site build
 

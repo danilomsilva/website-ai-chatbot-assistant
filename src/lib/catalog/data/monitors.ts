@@ -11,7 +11,9 @@ export const monitors: Product[] = [
     tagline: "A clear, honest screen for daily work.",
     description:
       "A 24-inch IPS display with accurate color and comfortable viewing angles — sized right for a single-monitor desk without dominating it.",
-    images: ["/images/monitors/fractal-pattern-monitor-essential-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1738676524296-364cf18900a8?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       sizeInches: 24,
       resolution: "1920x1080",
@@ -30,7 +32,9 @@ export const monitors: Product[] = [
     tagline: "More screen, more clarity, less desk clutter.",
     description:
       "A 27-inch QHD display with a 100Hz refresh rate and USB-C connectivity — sharp enough for detailed work, smooth enough for casual gaming, and able to charge a laptop over the same cable.",
-    images: ["/images/monitors/fractal-pattern-monitor-pro-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1738676524296-364cf18900a8?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       sizeInches: 27,
       resolution: "2560x1440",
@@ -49,7 +53,9 @@ export const monitors: Product[] = [
     tagline: "Reference-grade clarity at competitive speed.",
     description:
       "A 32-inch 4K Mini-LED display with a 165Hz refresh rate, built for competitive gaming and color-critical creative work in the same panel — with enough USB-C power delivery to run a laptop off a single cable.",
-    images: ["/images/monitors/fractal-pattern-monitor-elite-1.jpg"],
+    images: [
+      "https://images.unsplash.com/photo-1738676524296-364cf18900a8?q=80&w=1200&auto=format&fit=crop",
+    ],
     specs: {
       sizeInches: 32,
       resolution: "3840x2160",
