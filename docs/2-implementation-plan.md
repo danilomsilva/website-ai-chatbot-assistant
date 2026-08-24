@@ -60,9 +60,9 @@ Prove the anti-hallucination claim rather than just asserting it — this is the
 
 ## Phase 6 — Polish & hardening
 
-- [ ] Cross-check every chatbot claim path against Phase 5 results; fix prompt issues the eval surfaces.
-- [ ] Visual polish pass once content is final (spacing, imagery consistency, tier presentation).
-- [ ] Confirm Gemini free-tier limits hold up under expected demo/grading traffic; add a fallback path if not.
+- [x] Cross-check every chatbot claim path against Phase 5 results; fix prompt issues the eval surfaces. Eval is 100%/100%, nothing surfaced.
+- [x] Visual polish pass once content is final (spacing, imagery consistency, tier presentation).
+- [x] Confirm Gemini free-tier limits hold up under expected demo/grading traffic; add a fallback path if not. Switched to `gemini-flash-lite-latest` (~1,000+/day) after `gemini-3.6-flash`'s 20/day quota was exhausted during testing.
 - [ ] Final deploy check on Vercel.
 
 ## Phase 7 — Write-up
