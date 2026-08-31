@@ -7,6 +7,11 @@ based on a visitor's use case, space, and budget — and is built to be
 
 **Live demo:** https://website-ai-chatbot-assistant.vercel.app
 
+[![Live demo](https://img.shields.io/badge/demo-Vercel-000?logo=vercel&logoColor=white)](https://website-ai-chatbot-assistant.vercel.app)
+[![Trust page](https://img.shields.io/badge/citation%20%26%20refusal%20eval-100%25-brightgreen)](https://website-ai-chatbot-assistant.vercel.app/trust)
+![TypeScript strict](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white)
+
 ## What makes this different
 
 Most "AI chatbot on a website" projects stop at "I called an LLM API." This
